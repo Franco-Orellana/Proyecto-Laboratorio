@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Laboratorio 3</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- MENU ANIMADO -->
+    <link href="./dist-hamburgers/hamburgers.css" type="text/css" media="(max-width: 978px)" rel="stylesheet">
+
+    <!--  LIGHTBOX -->
+    <link href="./dist/css/lightbox.min.css" rel="stylesheet" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Fuente titulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet"> 
+
+    <!-- Fuente parrafos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet"> 
+
+    <!-- Fuente titulo hero  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#"><img src="./img/Logo-white-2-removebg-preview.png" alt="logo de la empresa"></a>
+        </div>
+
+        <div class="logo-movile">
+            <a href="#"><img src="./img/Logo-empresa-mobile.png" alt="logo de la empresa"></a>
+        </div>
+
+        <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        
+        <nav class="nav">
+            <ul class="header-menu-horizontal">
+                <li><a href="./index.html">Inicio</a></li>
+                <li>
+                    <div class="desplegable submenu-btn">
+                        <a href="#">Personajes
+                        <span><i class="bi-caret-down-fill"></i></span>
+                        <span><i class="bi-chevron-down"></i></a></span>
+                    </div>                   
+                    <ul class="header-menu-vertical">
+                        <li><a href="./personaje_principal.html">Personaje principal</a></li>
+                        <li><a href="./personajes.html">Todos los personajes</a></li>
+                    </ul>
+                </li>
+                <li><a href="./sinopsis.html">Sinopsis</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./notas.html">Notas</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a class="video" href="https://www.youtube.com/watch?v=qtfDK9pMKUs" target="_blank">Ver Capítulo</a>
+    </header>  
+    
+    <main>
+        
+        <section class="hero">
+            <div class="hero-title">
+                <div class="hero-title__bg_movile">
+                    <span class="gradient"></span>
+                    <img src="./img/Background-mobile.jpg" alt="imagen-de-background-de-inicio">
+                </div>
+
+                <div class="hero-title__img">
+                    <img src="./img/Titulo.png" alt="">
+                </div>
+
+                <div class="hero-title__content">
+                    <h1>Pablo Escobar, el patrón del mal</h1>
+                    <div class="hero-title__content__info color-grey">
+                        <span>2012</span>
+                        <span class="item">|</span>
+                        <span class="edad">16+</span>
+                        <span class="item">|</span>
+                        <span>1 temporada</span>
+                        <span class="item">|</span>
+                        <span>Series basadas en libros</span>
+                    </div>
+    
+                    <div class="hero-title__content__text">
+                        <div>
+                            <p>Esta fascinante serie narra la vida del infame Pablo Escobar, desde sus días como ratero hasta convertirse en el jefe de un imperio del narcotráfico.</p>
+                        </div>
+    
+                        <div class="hero-title__content__text__two">
+                            <p><span class="color-grey">Protagonistas:</span> Andrés Parra, Angie Cepeda, Cecilia Navia</p>
+                            <p><span class="color-grey">Creado por:</span> Juana Uribe, Camilo Cano</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    <main>
+  
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./dist-hamburgers/hamburgers.js"></script>
+</body>
+</html>
