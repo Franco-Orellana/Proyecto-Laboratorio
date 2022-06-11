@@ -217,7 +217,7 @@ header {
 /* Personaje principal */
 
 .person {
-    margin: 7% 0;
+    margin: 5% 0 9%;
     padding: 0 11%;
 }
 
@@ -361,7 +361,7 @@ header {
 }
 
 .notas article {
-    margin: 100px 0;
+    margin: 80px 0 100px;
     max-width: 1240px;
 }
 
@@ -500,7 +500,7 @@ header {
 /*  Galeria de fotos */
 
 .galeria {
-    margin: 5rem 7% 10rem;
+    margin: 7% 7% 14rem;
 }
 
 .galeria__titulo > h2 {
@@ -568,7 +568,7 @@ header {
 
 .contact {
     width: 100%;
-    padding: 100px 17%;
+    padding: 7% 17%;
 }   
 
 .contact article {
@@ -1039,7 +1039,7 @@ footer ul li a {
     }
 
     .sinop {
-        margin: 9rem 7%;
+        margin: 7%;
         padding: 0;
     }
     
@@ -1196,7 +1196,7 @@ footer ul li a {
     }
 
     .hero-title__content {
-        margin: 35px 25px 0;
+        margin: 35px 25px 25px;
         max-width: none;
     }
 
@@ -1223,11 +1223,6 @@ footer ul li a {
 
 
     /* Personaje principal */
-
-    .person {
-        margin: 80px 7%;
-        padding: 0;
-    }
 
     .person__titulo > h2 {
         display: inline-block;
@@ -1294,7 +1289,6 @@ footer ul li a {
     /* Contacto */
 
     .contact {
-        margin: 70px 0;
         padding: 50px 11%;
     }   
     .contact__info{
